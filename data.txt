@@ -1,0 +1,19 @@
+
+Nome della tabella: Auto usate
+
+id                                 intero                MEDIUMINT UNSIGNED       PRIMARY_KEY AUTOINCREMENT
+casa automobilistica               stringa               VARCHAR(50)              NOT-NULL
+modello                            stringa               VARCHAR(100)             NOT-NULL
+colore                             stringa               VARCHAR(20)              NOT-NULL
+lunghezza                          intero                TYNINT                   NOT-NULL
+altezza                            intero                TYNINT                   NOT-NULL 
+peso                               intero                TYININT                  NOT-NULL 
+tappezzeria interni                stringa               VARCHAR(50)              NOT-NULL 
+tipo carburante                    stringa               VARCHAR(20)              NOT-NULL 
+anno immatricolazione              data                  YEAR                     NOT-NULL 
+numero km                          intero                TYININT                  NOT-NULL 
+pezzi non originali                stringa               VARCHAR(2)               NULL
+prezzo                             float                 FLOAT()                  NOT-NULL 
+
+
+
